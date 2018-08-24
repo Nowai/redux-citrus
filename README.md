@@ -1,4 +1,4 @@
-# ![]("https://github.com/Nowai/redux-citrus/blob/master/logo.svg") redux-citrus 
+# ![](https://github.com/Nowai/redux-citrus/blob/master/logo.svg) redux-citrus 
 
 <p>
     <a href="https://github.com/Nowai/redux-citrus/blob/master/LICENSE">
