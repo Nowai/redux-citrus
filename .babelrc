@@ -1,0 +1,9 @@
+{
+	"presets": [
+		"react",
+		"babel-preset-env"
+	],
+	"plugins": [
+		"babel-plugin-styled-components"
+	]
+}
