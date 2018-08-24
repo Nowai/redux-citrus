@@ -22,7 +22,7 @@ Redux-Citrus provides a new combineReducer function `citrusReducers` that takes 
 Let's say multiple modules in our state require similar functionality. Normally, actions and reducers are location agnostic. To re-use redux components we require additional information in our reducers to select the appropriate slice. Redux-citrus makes it easy to have actions and reducers that work on multiple slices of the state. 
 
 In the following we work with a simple action/reducer example
-```
+```Javascript
 export const increment = (value = 1) => {
     return {
         type: counterActions.INCREMENT,
@@ -60,7 +60,7 @@ const counterReducer: Reducer<counterState> = (state = initialState, action) => 
 
 Furthermore, our state contains multiple modules that want to use the counter functionality
 
-```
+```Javascript
 const reducers = {
     clickCounter: counterReducer,
     objectCounter: counterReducer
@@ -69,14 +69,14 @@ const reducers = {
 
 To create our rootReducer that can work on slices we use the `citrusReducers` function
 
-```
+```Javascript
 import { citrusReducers } from 'redux-citrus';
 const rootReducer = citrusReducers(reducers);
 ```
 
 Citrus-Redux now provides our state a wrapper function to specify which slice we want to target with our actions
 
-```
+```Javascript
 import { increment, asyncIncrement } from ...
 const { clickCounter, objectCounter } = store.getState();
 
