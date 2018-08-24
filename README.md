@@ -1,4 +1,5 @@
 <p align="center">
+    <img src="https://github.com/Nowai/redux-citrus/blob/master/logo.svg">
     <h1>redux-citrus</h1>
 </p>
 
