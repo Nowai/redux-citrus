@@ -3,4 +3,9 @@ cache:
   directories:
     "node_modules"
 before_install:
-  rm -rf dist && npm run build
+  rm -rf dist &&
+install:
+  npm install
+  npm build
+script:
+  npm run test
