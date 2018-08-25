@@ -1,6 +1,6 @@
 {
   "name": "redux-citrus",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "redux middleware to enable reusable store components",
   "main": "dist/redux-citrus",
   "scripts": {

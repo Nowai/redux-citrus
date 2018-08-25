@@ -8,7 +8,7 @@
         <img src="https://img.shields.io/badge/build-passing-green.svg"> 
     </a>
     <a href="">
-        <img src="https://img.shields.io/badge/version-1.0.3-lightgrey.svg"> 
+        <img src="https://img.shields.io/badge/version-1.0.4-lightgrey.svg"> 
     </a>
 </p>
 
