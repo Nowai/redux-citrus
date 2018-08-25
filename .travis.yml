@@ -1,12 +1,9 @@
 language: node_js
+node_js:
+  "stable"
 cache:
   directories:
     "node_modules"
-before_install:
-  "npm config set spin false"
-  "npm install -g npm"
-install:
-  npm install
-  npm build
 script:
   npm run test
+  npm run build 
