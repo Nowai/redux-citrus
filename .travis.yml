@@ -3,9 +3,10 @@ cache:
   directories:
     "node_modules"
 before_install:
-  rm -rf dist/
+  "npm config set spin false"
+  "npm install -g npm"
 install:
-  npm install
-  npm build
+  "npm install"
+  "npm build"
 script:
-  npm run test
+  "npm run test"
