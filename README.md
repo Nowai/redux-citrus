@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Nowai/redux-citrus/blob/master/LICENSE)
 [![Build Status](https://travis-ci.org/Nowai/redux-citrus.svg?branch=master)](https://travis-ci.org/Nowai/redux-citrus)
-[![Version](https://img.shields.io/badge/version-1.0.4-lightgrey.svg)](https://github.com/Nowai/redux-citrus/)
+[![Version](https://img.shields.io/badge/version-1.0.6-lightgrey.svg)](https://github.com/Nowai/redux-citrus/)
 
 ### Redux middleware to enable reusable redux components
 

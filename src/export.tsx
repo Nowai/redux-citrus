@@ -1,2 +1,2 @@
-import { citrusReducers } from './Citrus/citrusReducers';
-export { citrusReducers };
+import { citrusReducers, withCitrus } from './Citrus/citrusReducers';
+export { citrusReducers, withCitrus };

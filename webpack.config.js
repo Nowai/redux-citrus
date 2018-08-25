@@ -7,12 +7,12 @@ const fileName = projectName + '.js';
 // build umd for production
 const umd = {
 	output: {
-		path: __dirname + '/dist/',
+		path: path.resolve(__dirname, './dist'),
 		filename: fileName,
 		library: projectName,
 		libraryTarget: 'umd',
 		umdNamedDefine: true,
-		publicPath: '/dist/'
+		//publicPath: '/dist/'
 	},
 	entry: './export.tsx',
 	externals: {

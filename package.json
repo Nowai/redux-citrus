@@ -1,8 +1,8 @@
 {
   "name": "redux-citrus",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "redux middleware to enable reusable store components",
-  "main": "dist/redux-citrus",
+  "main": "dist/redux-citrus.js",
   "scripts": {
     "dev": "webpack-dev-server --mode=development --config=webpack.config.js",
     "build": "webpack --mode=production --config=webpack.config.js",
